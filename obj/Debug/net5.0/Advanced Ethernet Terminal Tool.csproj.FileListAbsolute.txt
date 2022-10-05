@@ -1,0 +1,5 @@
+C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\obj\Debug\net5.0\Advanced Ethernet Terminal Tool.csproj.AssemblyReference.cache
+C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\obj\Debug\net5.0\Advanced Ethernet Terminal Tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\obj\Debug\net5.0\Advanced Ethernet Terminal Tool.AssemblyInfoInputs.cache
+C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\obj\Debug\net5.0\Advanced Ethernet Terminal Tool.AssemblyInfo.cs
+C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\obj\Debug\net5.0\Advanced Ethernet Terminal Tool.csproj.CoreCompileInputs.cache
