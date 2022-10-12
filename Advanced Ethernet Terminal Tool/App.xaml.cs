@@ -30,6 +30,8 @@ namespace Advanced_Ethernet_Terminal_Tool
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            this.dfasd
+                ;
         }
 
         /// <summary>
