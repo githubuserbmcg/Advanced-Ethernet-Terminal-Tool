@@ -1,1 +1,1 @@
-C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\Advanced Ethernet Terminal Tool.csproj;x86
+C:\Users\bmcgowan\Documents\GitHub\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\Advanced Ethernet Terminal Tool.csproj;x86

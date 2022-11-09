@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kgriena\\OneDrive - cenero.com\\Developement\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj": {}
+    "C:\\Users\\bmcgowan\\Documents\\GitHub\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kgriena\\OneDrive - cenero.com\\Developement\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj": {
+    "C:\\Users\\bmcgowan\\Documents\\GitHub\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kgriena\\OneDrive - cenero.com\\Developement\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj",
+        "projectUniqueName": "C:\\Users\\bmcgowan\\Documents\\GitHub\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj",
         "projectName": "Advanced Ethernet Terminal Tool",
-        "projectPath": "C:\\Users\\kgriena\\OneDrive - cenero.com\\Developement\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj",
-        "packagesPath": "C:\\Users\\kgriena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kgriena\\OneDrive - cenero.com\\Developement\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\obj\\",
+        "projectPath": "C:\\Users\\bmcgowan\\Documents\\GitHub\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj",
+        "packagesPath": "C:\\Users\\bmcgowan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bmcgowan\\Documents\\GitHub\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -20,7 +20,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kgriena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bmcgowan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
