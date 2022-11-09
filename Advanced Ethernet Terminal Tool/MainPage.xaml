@@ -21,18 +21,14 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <StackPanel Orientation="Horizontal">
-                <StackPanel Grid.Column="0" Orientation="Horizontal">
-                    <Button Content="Button 1" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
-                    <Button Content="Button 2" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
-                    <Button Content="Button 3" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
-                </StackPanel>
-                <StackPanel Grid.Column="0" Orientation="Vertical">
-                    <Button Content="Button 1" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
-                    <Button Content="Button 2" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
-                    <Button Content="Button 3" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
-                </StackPanel>
-            </StackPanel>
+            <Grid Grid.Column="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Content="TCP Client" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,1,1,1"></Button>
+                <Button Grid.Column="1" Content="Settings" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,1,1,1"></Button>
+            </Grid>
             <RelativePanel Grid.Column="1">
                 <Button x:Name="RelBut1" Content="Button 1" Margin="1,1,1,1" RelativePanel.AlignHorizontalCenterWithPanel="True"></Button>
                 <Button x:Name="RelBut2" Content="Button 2" Margin="1,1,1,1" RelativePanel.Below="RelBut1"></Button>
