@@ -7,7 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"></RowDefinition>
@@ -22,7 +21,29 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="3" Content="Button" Height="100" Width="200"></Button>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <Button Content="Button 1" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
+                    <Button Content="Button 2" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
+                    <Button Content="Button 3" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <Button Content="Button 1" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
+                    <Button Content="Button 2" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
+                    <Button Content="Button 3" HorizontalAlignment="Center" Margin="1,1,1,1"></Button>
+                </StackPanel>
+            </StackPanel>
+            <RelativePanel Grid.Column="1">
+                <Button x:Name="RelBut1" Content="Button 1" Margin="1,1,1,1" RelativePanel.AlignHorizontalCenterWithPanel="True"></Button>
+                <Button x:Name="RelBut2" Content="Button 2" Margin="1,1,1,1" RelativePanel.Below="RelBut1"></Button>
+                <Button Content="Button 3" Margin="1,1,1,1" RelativePanel.LeftOf="RelBut1" RelativePanel.Below="RelBut2"></Button>
+            </RelativePanel>
+            <VariableSizedWrapGrid MaximumRowsOrColumns="2" Grid.Column="2">
+                <Button Content="Button 1" Margin="1,1,1,1"></Button>
+                <Button Content="Button 2" Margin="1,1,1,1"></Button>
+                <Button Content="Button 3" Margin="1,1,1,1"></Button>
+                <Button Content="Button 4" Margin="1,1,1,1"></Button>
+            </VariableSizedWrapGrid>
         </Grid>
     </Grid>
 </Page>
