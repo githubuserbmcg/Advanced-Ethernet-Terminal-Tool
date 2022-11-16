@@ -5,8 +5,18 @@
     xmlns:local="using:Advanced_Ethernet_Terminal_Tool"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <Page.Resources>
+        <DataTemplate x:Key="NavigationViewMenuItem" x:DataType="local:Category">
+            <muxc:NavigationViewItem  Content="{x:Bind Name}"
+            MenuItemsSource="{x:Bind Children}"
+            SelectsOnInvoked="{x:Bind IsLeaf}"/>
+        </DataTemplate>
+    </Page.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"></RowDefinition>
@@ -14,32 +24,10 @@
             <RowDefinition Height="10*"></RowDefinition>
             <RowDefinition Height="5*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="0" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="4*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="TCP Client" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,1,1,1"></Button>
-                <Button Grid.Column="1" Content="Settings" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,1,1,1"></Button>
-            </Grid>
-            <RelativePanel Grid.Column="1">
-                <Button x:Name="RelBut1" Content="Button 1" Margin="1,1,1,1" RelativePanel.AlignHorizontalCenterWithPanel="True"></Button>
-                <Button x:Name="RelBut2" Content="Button 2" Margin="1,1,1,1" RelativePanel.Below="RelBut1"></Button>
-                <Button Content="Button 3" Margin="1,1,1,1" RelativePanel.LeftOf="RelBut1" RelativePanel.Below="RelBut2"></Button>
-            </RelativePanel>
-            <VariableSizedWrapGrid MaximumRowsOrColumns="2" Grid.Column="2">
-                <Button Content="Button 1" Margin="1,1,1,1"></Button>
-                <Button Content="Button 2" Margin="1,1,1,1"></Button>
-                <Button Content="Button 3" Margin="1,1,1,1"></Button>
-                <Button Content="Button 4" Margin="1,1,1,1"></Button>
-            </VariableSizedWrapGrid>
-        </Grid>
+
+        <muxc:NavigationView x:Name="navview" PaneDisplayMode="Top"
+    MenuItemsSource="{x:Bind Categories, Mode=OneWay}" 
+    MenuItemTemplate="{StaticResource NavigationViewMenuItem}">
+        </muxc:NavigationView>
     </Grid>
 </Page>
