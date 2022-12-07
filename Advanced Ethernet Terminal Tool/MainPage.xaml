@@ -15,19 +15,33 @@
             MenuItemsSource="{x:Bind Children}"
             SelectsOnInvoked="{x:Bind IsLeaf}"/>
         </DataTemplate>
+        <DataTemplate x:Key="Button">
+            <Button  FontSize="200"/>
+        </DataTemplate>
     </Page.Resources>
     
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="10*"></RowDefinition>
-            <RowDefinition Height="75*"></RowDefinition>
-            <RowDefinition Height="10*"></RowDefinition>
-            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="15"></RowDefinition>
         </Grid.RowDefinitions>
 
         <muxc:NavigationView x:Name="navview" PaneDisplayMode="Top"
     MenuItemsSource="{x:Bind Categories, Mode=OneWay}" 
     MenuItemTemplate="{StaticResource NavigationViewMenuItem}">
         </muxc:NavigationView>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Send" Background="Blue" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="2"/>
+            <TextBox Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" MaxHeight="30"/>
+            <Button Content="X" Background="Blue" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="2"/>
+
+        </Grid>
     </Grid>
 </Page>

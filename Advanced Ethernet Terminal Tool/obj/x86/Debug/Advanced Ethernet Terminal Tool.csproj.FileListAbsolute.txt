@@ -48,3 +48,4 @@ C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-T
 C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424959200000000.json
 C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\obj\x86\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
 C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\obj\x86\Debug\Advanced Ethernet Terminal Tool.csproj.AssemblyReference.cache
+C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\Newtonsoft.Json.dll

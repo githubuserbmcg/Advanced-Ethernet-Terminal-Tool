@@ -26,46 +26,107 @@ namespace Advanced_Ethernet_Terminal_Tool
     {
         public MainPage()
         {
-            this.InitializeComponent();
+            try
+            {
+                Categories[0].Children[1].Children.Add(new Category()
+                {
+                    Name = "Matt's Test System",
+                    CategoryIcon = "Home",
+                    IsLeaf = true
+                });
+                this.InitializeComponent();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            
+        }
+
+        public static string SetIcon(eCategoryIcon eIcon)
+        {
+            return eIcon.ToString();
         }
 
         public ObservableCollection<Category> Categories = new ObservableCollection<Category>()
-        { 
+        {
         new Category(){
-            Name = "Menu item 1",
-            CategoryIcon = "Icon",
+            Name = "TCP Client",
+            CategoryIcon = "Home",
             Children = new ObservableCollection<Category>() {
                 new Category(){
-                    Name = "Menu item 2",
-                    CategoryIcon = "Icon",
+                    Name = "Manual Entry",
+                    CategoryIcon = "Home",
+                   IsLeaf = true
+                },
+                new Category(){
+                    Name = "Addresses Book",
+                    CategoryIcon = "Home",
                     Children = new ObservableCollection<Category>() {
                         new Category() {
-                            Name  = "Menu item 3",
-                            CategoryIcon = "Icon",
-                            Children = new ObservableCollection<Category>() {
-                                new Category() { Name  = "Menu item 4", CategoryIcon = "Icon", IsLeaf = true },
-                                new Category() { Name  = "Menu item 5", CategoryIcon = "Icon", IsLeaf = true }
-                            }
+                            Name  = "Add Entry",
+                            CategoryIcon = "Home",
+                            IsLeaf = true
                         }
                     }
-                }
+                },
+                new Category(){
+                    Name = "Macros",
+                    CategoryIcon = "Home",
+                    Children = new ObservableCollection<Category>() {
+                        new Category() {
+                            Name  = "Add Macro",
+                            CategoryIcon ="Home",
+                            IsLeaf = true
+                        }
+                    }
+                },
             }
         },
         new Category(){
-            Name = "Menu item 6",
-            CategoryIcon = "Icon",
+            Name = "TCP Server",
+            CategoryIcon = "Home",
             Children = new ObservableCollection<Category>() {
                 new Category(){
-                    Name = "Menu item 7",
-                    CategoryIcon = "Icon",
+                    Name = "Configuration",
+                    CategoryIcon = "Home",
+                    IsLeaf = true
+                },
+                new Category(){
+                    Name = "Macros",
+                    CategoryIcon = "Home",
                     Children = new ObservableCollection<Category>() {
-                        new Category() { Name  = "Menu item 8", CategoryIcon = "Icon", IsLeaf = true },
-                        new Category() { Name  = "Menu item 9", CategoryIcon = "Icon", IsLeaf = true }
+                        new Category() {
+                            Name  = "Add Macro",
+                            CategoryIcon = "Home",
+                            IsLeaf = true
+                        }
                     }
-                }
+                },
             }
         },
-        new Category(){ Name = "Menu item 10", CategoryIcon = "Icon", IsLeaf = true }
+        new Category(){
+            Name = "UDP",
+            CategoryIcon = "Home",
+            Children = new ObservableCollection<Category>() {
+                new Category(){
+                    Name = "Configuration",
+                    CategoryIcon = "Home",
+                    IsLeaf = true
+                },
+                new Category(){
+                    Name = "Macros",
+                    CategoryIcon = "Home",
+                    Children = new ObservableCollection<Category>() {
+                        new Category() {
+                            Name  = "Add Macro",
+                            CategoryIcon = "Home",
+                            IsLeaf = true
+                        }
+                    }
+                },
+            }
+        }
         };
     }
 }

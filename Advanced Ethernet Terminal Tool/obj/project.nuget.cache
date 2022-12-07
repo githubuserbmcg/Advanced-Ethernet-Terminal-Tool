@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gsw8kIypwKZcU9pi7BHN7ykFV7kOAbzLCV0DyR8dOOpFE3Vly7JpU+THsKD9DoJ0Z35AfzOq/+7c+uamhOnAzA==",
+  "dgSpecHash": "oEw+CuwkXskd4TRshs7lIaUb57k3GDAzOqJHhGh2dmBsIvzz+V8b72DLe2KK5O9IFQNeWeAAlaCNB1UcsZC3Tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kgriena\\OneDrive - cenero.com\\Developement\\Advanced-Ethernet-Terminal-Tool\\Advanced Ethernet Terminal Tool\\Advanced Ethernet Terminal Tool.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\kgriena\\.nuget\\packages\\microsoft.ui.xaml\\2.8.1\\microsoft.ui.xaml.2.8.1.nupkg.sha512",
     "C:\\Users\\kgriena\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\microsoft.web.webview2.1.0.1264.42.nupkg.sha512",
     "C:\\Users\\kgriena\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kgriena\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.10-rel-29722-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",

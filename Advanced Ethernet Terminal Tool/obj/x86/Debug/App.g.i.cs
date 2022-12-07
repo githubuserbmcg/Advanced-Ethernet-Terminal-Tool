@@ -45,6 +45,7 @@ namespace Advanced_Ethernet_Terminal_Tool
             DebugSettings.BindingFailed += (sender, args) =>
             {
                 global::System.Diagnostics.Debug.WriteLine(args.Message);
+        
             };
 #endif
 #if DEBUG && !DISABLE_XAML_GENERATED_BREAK_ON_UNHANDLED_EXCEPTION

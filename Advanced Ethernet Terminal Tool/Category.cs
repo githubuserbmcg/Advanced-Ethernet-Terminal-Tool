@@ -14,5 +14,17 @@ namespace Advanced_Ethernet_Terminal_Tool
         public String CategoryIcon { get; set; }
         public ObservableCollection<Category> Children { get; set; }
         public bool IsLeaf { get; set; }
+
+        
     }
+
+    public enum eCategoryIcon
+    {
+        Home,
+        Keyboard,
+        Page,
+        Mail
+    }
+
+
 }
