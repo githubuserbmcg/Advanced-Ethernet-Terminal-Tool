@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -128,5 +129,28 @@ namespace Advanced_Ethernet_Terminal_Tool
             }
         }
         };
+
+        private async void Character_Map_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog noWifiDialog = new ContentDialog
+            {
+                FullSizeDesired = true,
+                Title = "Charater Map",
+                CloseButtonText = "Ok",
+            };
+
+            var newStack = new StackPanel();
+            newStack.Background = new SolidColorBrush(Windows.UI.Colors.White);
+            Image img = new Image();
+            BitmapImage bitmapImage = new BitmapImage();
+
+            bitmapImage.UriSource = new Uri("ms-appx:///Assets/Ascii_Table-nocolor.svg.png");
+            img.Source = bitmapImage;
+
+            newStack.Children.Add(img);
+            noWifiDialog.Content = newStack;
+
+            ContentDialogResult result = await noWifiDialog.ShowAsync();
+        }
     }
 }

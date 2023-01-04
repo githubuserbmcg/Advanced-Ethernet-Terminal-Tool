@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-07T16:51:27.691</Modified>
+      <Modified>2023-01-04T16:54:48.864</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\Advanced Ethernet Terminal Tool.exe">
       <PackagePath>entrypoint\Advanced Ethernet Terminal Tool.exe</PackagePath>
-      <Modified>2022-12-07T16:51:24.892</Modified>
+      <Modified>2023-01-04T16:54:45.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -61,6 +61,10 @@
     <AppxPackagedFile Include="C:\Users\kgriena\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2022-06-28T22:02:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\Assets\Ascii_Table-nocolor.svg.png">
+      <PackagePath>Assets\Ascii_Table-nocolor.svg.png</PackagePath>
+      <Modified>2023-01-04T16:16:42.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\Advanced Network Tool.png">
       <PackagePath>Advanced Network Tool.png</PackagePath>
@@ -106,15 +110,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\Advanced Ethernet Terminal Tool.xr.xml">
       <PackagePath>Advanced Ethernet Terminal Tool.xr.xml</PackagePath>
-      <Modified>2022-12-07T16:51:24.662</Modified>
+      <Modified>2023-01-04T16:13:38.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-30T17:17:49.286</Modified>
+      <Modified>2023-01-04T16:54:45.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-12-07T16:51:24.692</Modified>
+      <Modified>2023-01-04T16:54:45.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -130,11 +134,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-16T16:56:43.367</Modified>
+      <Modified>2023-01-04T16:19:04.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\bin\x86\Debug\Core\Advanced Ethernet Terminal Tool.exe">
       <PackagePath>Advanced Ethernet Terminal Tool.exe</PackagePath>
-      <Modified>2022-12-07T16:51:27.668</Modified>
+      <Modified>2023-01-04T16:54:48.822</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

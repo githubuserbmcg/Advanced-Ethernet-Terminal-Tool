@@ -19,7 +19,7 @@
             <Button  FontSize="200"/>
         </DataTemplate>
     </Page.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>
@@ -36,12 +36,18 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <Button Content="Send" Background="Blue" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="2"/>
-            <TextBox Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" MaxHeight="30"/>
-            <Button Content="X" Background="Blue" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="2"/>
-
+            <TextBox Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" MaxHeight="30" TextWrapping="NoWrap" IsReadOnly="False" AcceptsReturn="False"/>
+            <Button Content="Character Map" Background="Tomato" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Character_Map_Click" Margin="2"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Status: Connected"/>
         </Grid>
     </Grid>
 </Page>

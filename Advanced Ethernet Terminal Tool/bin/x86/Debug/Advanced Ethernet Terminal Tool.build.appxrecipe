@@ -46,6 +46,9 @@
     <AppxPackagedFile Include="C:\Users\kgriena\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\Assets\Ascii_Table-nocolor.svg.png">
+      <PackagePath>Assets\Ascii_Table-nocolor.svg.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kgriena\OneDrive - cenero.com\Developement\Advanced-Ethernet-Terminal-Tool\Advanced Ethernet Terminal Tool\Advanced Network Tool.png">
       <PackagePath>Advanced Network Tool.png</PackagePath>
     </AppxPackagedFile>
